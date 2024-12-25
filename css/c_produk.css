@@ -1,0 +1,199 @@
+body{
+    background-color: #FCD2C2;
+    margin: 0;
+    padding: 0;
+}
+
+.header #logo img{
+    height: 100px;
+    width: auto;
+    margin-left: 10px;
+    margin-top: 10px;
+    position: absolute;
+    border-radius: 100px;
+}
+.header h1{
+    display: inline-block;
+    text-align: start;
+    justify-content: left;
+    margin-left: 120px;
+    margin-top: -50px;
+    color: #FCD2C2;
+    font-family: sans-serif;
+}
+.header{
+    background-color: #0B3846;
+    height: 150px;
+    
+}
+.header nav{
+    text-align: right;
+    padding: 10px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.header nav ul li a{
+    list-style-type: none;
+    text-decoration: none;
+    color: #FCD2C2;
+    margin: 5px;
+    
+}
+
+body .produklist #searchbox form {
+	display: flex;
+	justify-content: center;
+	margin-top: 50px;
+}
+
+#search {
+	appearance: none;
+	border: 2px solid #333;
+	border-radius: 5px 0 0 5px;
+	padding: 10px;
+	outline: none;
+	width: 500px;
+}
+
+#search::placeholder {
+	color: #999;
+}
+
+button {
+	background-color: #333;
+	border: none;
+	border-radius: 0 5px 5px 0;
+	color: #fff;
+	padding: 10px 20px;
+}
+
+button:hover {
+	cursor: pointer;
+	background-color: #444;
+}
+
+.display-baju{
+    padding: 20px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+
+}
+
+.display-baju #display-bochi img{
+    height: 300px;
+    width: auto;
+    border-radius: 15px;
+    margin-right: 10px;
+    margin-left: 0px;
+    flex-grow: 1;
+    flex-basis: 200;
+}
+.display-baju #display-chisato img{
+    height: 300px;
+    width: auto;
+    border-radius: 15px;
+    margin-top: 10px 10px 10px 10px;
+    flex-grow: 1;
+    flex-basis: 200;
+}
+.display-baju #display-ultraman img{
+    height: 300px;
+    width: auto;
+    border-radius: 15px;
+    margin-right: 10px;
+    flex-grow: 1;
+    flex-basis: 200;
+}
+.display-baju #display-zeta img{
+    height: 300px;
+    width: auto;
+    border-radius: 15px;
+    margin-right: 10px;
+    flex-grow: 1;
+    flex-basis: 200;
+}
+.display-baju{
+    text-align: center;
+    font-family: sans-serif;
+}
+.display-baju a{
+    background-color: #0B3846;
+    padding: 10px;
+    border-radius: 15px;
+    text-decoration-line: none;
+    color: white;
+}
+.display-baju a:hover{
+    background-color: white;
+    padding: 10px;
+    border-radius: 15px;
+    text-decoration-line: none;
+    color: #0B3846;
+}
+
+.display-baju #display-kobo img{
+    height: 300px;
+    width: auto;
+    border-radius: 15px;
+    margin-right: 10px;
+    flex-grow: 1;
+    flex-basis: 200;
+}
+.display-baju #display-kaela img{
+    height: 300px;
+    width: auto;
+    border-radius: 15px;
+    margin-right: 10px;
+    flex-grow: 1;
+    flex-basis: 200;
+}
+.display-baju #display-iofi img{
+    height: 300px;
+    width: auto;
+    border-radius: 15px;
+    margin-right: 10px;
+    flex-grow: 1;
+    flex-basis: 200;
+}
+.display-baju #display-risu img{
+    height: 300px;
+    width: auto;
+    border-radius: 15px;
+    margin-right: 10px;
+    flex-grow: 1;
+    flex-basis: 200;
+}
+.display-baju #display-furina img{
+    height: 300px;
+    width: auto;
+    border-radius: 15px;
+    margin-right: 10px;
+    flex-grow: 1;
+    flex-basis: 200;
+}
+.display-baju #display-nonomi img{
+    height: 300px;
+    width: auto;
+    border-radius: 15px;
+    margin-right: 10px;
+    flex-grow: 1;
+    flex-basis: 200;
+}
+.display-baju #display-stellar-jade img{
+    height: 300px;
+    width: auto;
+    border-radius: 15px;
+    margin-right: 10px;
+    flex-grow: 1;
+    flex-basis: 200;
+}
+
+
+
+
+.display-baju div{
+    margin-bottom: 30px;
+}
+
+

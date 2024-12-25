@@ -1,0 +1,154 @@
+body{
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+}
+.header img{
+    height: 100px;
+    width: auto;
+    margin-bottom: 10px;
+    border-radius: 100px;
+}
+
+.header nav{
+    background-color: #c14141;
+    padding: 15px;
+    text-align: center;
+    border-radius: 20px;
+    margin-bottom: 10px;
+    border: 5px solid #FCD2C2 ;
+}
+
+
+.header nav a{
+    list-style-type: none;
+    color: #FCD2C2;
+    text-decoration: none;
+    margin: 5px 10px 5px 10px;
+}
+.header nav a:hover{
+    margin: 5px 30px 5px 30px;
+    background-color: #FCD2C2;
+    color: #c14141;
+    padding: 5px 20px 5px 20px;
+    border-radius: 20px;
+    box-shadow: 2px 2px 20px #FCD2C2;
+}
+.header p{
+    margin-top: -15px;
+
+}
+.header h1{
+    color: #FCD2C2;
+}
+.header p{
+    color: #FCD2C2;
+}
+
+.header{
+    background-color:#c14141;
+    padding: 20px;
+    height: 300px;
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+
+    
+}
+
+.product{
+    background-color: #FFBBBB;
+    margin-top: 0px;
+    padding: 10px;
+    padding-bottom: 50px;
+}
+
+.product h2{
+    margin-bottom: 40px;
+    text-decoration-line: underline;
+}
+
+.product ul li img{
+    height: 250px;
+    width: auto;
+    border-radius: 15px;
+    
+}
+.product ul{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    margin-left: 70px;
+    margin-right: 70px;
+    display: flex;
+    flex-wrap: wrap;
+
+}
+.product li{
+    text-align: center;
+    text-decoration-line: none;
+    font-weight: lighter;
+    flex-grow: 1;
+    flex-basis: 200;
+}
+.product a:hover{
+    list-style-type: none;
+    text-decoration: none;
+    background-color: white;
+    color: lightcoral;
+    padding: 10px 15px;
+    border-radius: 25px;
+
+}
+.product a{
+    background-color: lightcoral;
+    list-style-type: none;
+    text-decoration: none;
+    color: white;
+    padding: 10px 15px;
+    border-radius: 25px;
+}
+.footer{
+    padding-left: 10px;
+    padding-bottom: 30px;
+    border-top-style: solid;
+    background-color: whitesmoke;
+}
+.footer a:hover{
+    margin-left: 20px;
+    margin-right: 20px;
+    list-style-type: none;
+    text-decoration: none;
+    color: white;
+    box-shadow: 2px 2px 18px black;
+}
+.footer h5{
+    margin-top: -10;
+    margin-bottom: 20px;
+}
+.footer #Youtube:hover{
+    background-color: rgb(175, 0, 0);
+    padding: 10px;
+    border-radius: 20px;
+}
+.footer #Instagram:hover{
+    background: rgb(131,58,180);
+    background: linear-gradient(90deg, rgba(131,58,180,1) 0%, rgba(253,29,29,1) 50%, rgba(252,176,69,1) 100%);
+    padding: 10px;
+    border-radius: 20px;
+}
+.footer #Facebook:hover{
+    background-color: rgba(72,103,170,255);
+    padding: 10px;
+    border-radius: 20px;
+}
+.footer a{
+    list-style-type: none;
+    text-decoration: none;
+    background-color: black;
+    color: white;
+    padding: 10px;
+    border-radius: 20px;
+}

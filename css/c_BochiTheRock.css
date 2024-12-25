@@ -1,0 +1,175 @@
+*{
+    font-family: sans-serif;
+}
+
+body{
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+}
+
+.header{
+    background-color: #294A66;
+    padding: 10px;
+}
+
+.header #logotoko{
+    height: 70px;
+    width: auto;
+    position: absolute;
+}
+.header h1{
+    display: inline-block;
+    justify-content: left;
+    margin-left: 90px;
+    color: white;
+}
+
+.header nav{
+    background-color: #0B3846;
+    padding: 15px;
+    text-align: center;
+    border-radius: 20px;
+}
+
+.header nav a{
+    list-style-type: none;
+    color: #FCD2C2;
+    text-decoration: none;
+    margin-left: 10px;
+}
+
+.isi{
+    padding-top: 20px;
+    padding-right: 20px;
+    padding-left: 20px;
+    display: flex;
+    flex-wrap: wrap;
+}
+.isi #gambar-baju{
+    color: #FCD2C2;
+    text-decoration: none;
+    margin: 10px;
+    flex-grow: 1;
+    flex-basis: 200;
+    border-style: dotted;
+    border: 10px;
+    border-color: #FCD2C2;
+    max-width: 25%;
+    height: auto;
+    border-radius: 20px;
+}
+.isi ul{
+    flex-grow: 1;
+    flex-basis: 200;
+    background-color: #294A66;
+    border-radius: 20px;
+}
+.isi ul h1{
+    color: white;
+}
+.isi ul h3{
+    color: white;
+
+}
+.isi ul p{
+    color: white;
+    background-color: #0B3846;
+    border-radius: 20px;
+    text-align: center;
+    font-size: 500%;
+    padding: 0;
+    margin: 0;
+    margin-top: 50px;
+    margin-right: 100px;
+}
+
+.keterangan{
+    flex-grow: 1;
+    flex-basis: 200;
+    background-color: #FFBBBB;
+    padding: 10px;
+    border-radius: 10px;
+    width: auto;
+    text-align: center;
+    justify-content: center;
+    margin-left: 2%;
+    margin-right: 20px;
+    
+
+    
+}
+.keterangan .size{
+    flex-grow: 1;
+    flex-basis: 200;
+    
+    
+}
+.keterangan .size button{
+    border-radius: 10px;
+}
+.buy{
+    flex-grow: 1;
+    flex-basis: 200;
+    margin-top: 20px;
+    background-color: white;
+    padding: 10px;
+    border-radius: 20px;
+    max-width: 70px;
+}
+.buy #buy{
+    color: black;
+    flex-grow: 1;
+    flex-basis: 200;
+    border-radius: 20px;
+    border-style: dotted;
+}
+.buy #buy:hover{
+    color: black;
+    flex-grow: 1;
+    flex-basis: 200;
+    border-radius: 20px;
+    border-style: solid;
+}
+.dropdown{
+    position: relative;
+    display: inline-block;
+    margin-top: 50px;
+}
+.dropdown-content{
+    display: none;
+    position: absolute;
+    background-color: #f9f9f9;
+    min-width: 160px;
+    box-shadow: 0px 2px 10px black;
+    padding: 12px 12px;
+    z-index: 1;
+}
+.dropdown:hover .dropdown-content{
+    display: block;
+}
+
+.dropdown-content #size:focus{
+    background-color: black;
+    color: white;
+}
+#buy{
+    margin-left: 10px;
+    margin-top: 10px;
+}
+#buy:active{
+    color: white;
+    background-color: black;
+}
+#buy1{
+    background-color: #FFBBBB;
+    padding: 10px;
+    border-radius: 20px;
+    text-shadow: 2px 2px black;
+    
+}
+#buy1:hover{
+    background-color: white;
+    color: black;
+    text-shadow: 0px 0px black;
+}
