@@ -1,0 +1,39 @@
+entitas utama:
+
+    Pelanggan (Customer)
+        ID_Pelanggan (PK)
+        Nama
+        Email
+        Telepon
+        Alamat
+
+    Produk (Product)
+        ID_Produk (PK)
+        Nama_Produk
+        Harga
+        Stok
+
+    Transaksi (Transaction)
+        ID_Transaksi (PK)
+        Tanggal_Transaksi
+        ID_Pelanggan (FK)
+
+    Detail Transaksi (Transaction_Detail)
+        ID_Detail (PK)
+        ID_Transaksi (FK)
+        ID_Produk (FK)
+        Jumlah
+        Total_Harga
+
+    Pembayaran (Payment)
+        ID_Pembayaran (PK)
+        ID_Transaksi (FK)
+        Metode_Pembayaran
+        Status_Pembayaran
+
+Relasi:
+
+    - Pelanggan bisa melakukan banyak Transaksi.
+    - Transaksi bisa memiliki banyak Detail Transaksi (berisi produk yang dibeli).
+    - Produk bisa muncul di banyak Detail Transaksi.
+    - Transaksi memiliki satu Pembayaran.
